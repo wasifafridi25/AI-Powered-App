@@ -16,6 +16,9 @@
       "@/*": ["./*"]
     }
   },
+  "imports": {
+    "@google/generative-ai": "https://esm.run/@google/generative-ai"
+  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
